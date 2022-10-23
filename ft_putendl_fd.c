@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 18:24:45 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/12 19:20:25 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/17 22:18:43 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ void	ft_putendl_fd(char *s, int fd)
 	write(fd, "\n", 1);
 }
 
-int	main()
-{
-	int f = open("foo.txt", O_RDWR | O_CREAT);
-	printf("fd = %d",f);
-	ft_putendl_fd("dd", f);
-}
+// int	main()
+// {
+// 	int f = open("foo.txt", O_RDWR | O_CREAT);
+// 	printf("fd = %d",f);
+// 	ft_putendl_fd("dd", f);
+// }

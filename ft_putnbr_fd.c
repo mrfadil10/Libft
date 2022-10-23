@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 20:59:06 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/13 09:17:35 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/22 23:06:12 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,4 @@ void	ft_putnbr_fd(int nb, int fd)
 		ft_putnbr_fd((nb / 10), fd);
 		ft_putnbr_fd((nb % 10), fd);
 	}
-}
-
-int	main()
-{
-	ft_putnbr_fd(0, 3);
 }

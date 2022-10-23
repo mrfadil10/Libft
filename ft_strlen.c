@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 10:25:21 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/09 19:05:43 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/17 22:23:22 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,10 @@
 
 size_t	ft_strlen(const char *str)
 {
-	size_t i;
+	size_t	i;
+
 	i = 0;
-	while(str[i])
+	while (str[i])
 	{
 		i++;
 	}

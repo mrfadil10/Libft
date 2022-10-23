@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 17:18:46 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/12 18:35:29 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/18 16:27:30 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (!(s) || fd < 0)
+		return ;
 	while (*s)
 	{
 		write(fd, s, 1);

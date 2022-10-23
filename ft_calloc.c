@@ -6,15 +6,16 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 09:36:34 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/12 11:48:30 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/17 22:06:48 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_calloc(size_t count, size_t size)
+void	*ft_calloc(size_t count, size_t size)
 {
-	void *s;
+	void	*s;
+
 	s = malloc(count * size);
 	if (s == NULL)
 		return (s);

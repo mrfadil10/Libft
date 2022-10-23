@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 19:22:03 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/12 21:06:42 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/18 14:36:44 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	int	i;
+	size_t			i;
 	unsigned char	*p;
 
 	p = (unsigned char *)s;

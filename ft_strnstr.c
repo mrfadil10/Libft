@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 19:24:36 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/08 19:07:27 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/18 19:52:39 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,15 @@
 
 char	*ft_strnstr(const char *str, char *to_find, size_t n)
 {
-	size_t i;
-	size_t j;
+	size_t	i;
+	size_t	j;
 
 	i = 0;
 	j = 0;
-
 	if (!*to_find)
 		return ((char *)str);
+	if (str == 0 && n == 0)
+		return (0);
 	while (str[i])
 	{
 		j = 0;

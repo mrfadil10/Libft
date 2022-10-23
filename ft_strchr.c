@@ -6,7 +6,7 @@
 /*   By: mfadil <mfadil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 15:51:55 by mfadil            #+#    #+#             */
-/*   Updated: 2022/10/14 09:53:16 by mfadil           ###   ########.fr       */
+/*   Updated: 2022/10/17 22:19:25 by mfadil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 
 char	*ft_strchr(const char *str, int c)
 {
-	int i;
+	int	i;
 
 	i = 0;
-	while(str[i])
+	while (str[i])
 	{
-		if(str[i] == (unsigned char)c)
+		if (str[i] == (unsigned char)c)
 			return ((char *)str + i);
 		i++;
 	}
-	if(str[i] == c)
-		return((char *) str + i);
+	if (str[i] == c)
+		return ((char *) str + i);
 	return (0);
 }
 

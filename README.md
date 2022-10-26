@@ -1,5 +1,4 @@
 # 42CURSUS
-
 This is my README for my journey in 42_Cursus, i hope that it will useful for readers and also for me, to remember all the things.
 
 ## What is "Wildcard" in Makefile ?
@@ -12,5 +11,12 @@ Suppose if you want to convert .c files to .o files then the following syntax ma
 
     program_C_OBJS:=$(patsubst %.c,%.o,$(wildcard *.c)).
 
-## Virtual Memory :
+## Virtual Memory
 Virtual memory is a memory management technique where secondary memory can be used as if it were a part of the main memory. Virtual memory is a common technique used in a computer's operating system (OS), and it uses both hardware and software to enable a computer to compensate for physical memory shortages.
+
+## Different Types of Errors
+
+   ###### SEGMENTATION FAULT 
+   Segmentation fault occurs when the program tries to access an area of memory that is not allowed to access.
+   ###### BUS ERROR
+   Bus Error occurs when the program gives a prossesssor instruction with an address does not satisfy its

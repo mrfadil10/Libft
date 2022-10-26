@@ -40,6 +40,8 @@ Virtual memory is a memory management technique where secondary memory can be us
 #### **Makefile**
 
    - We can use variables in a makefile using the conventional assignement operator and then calling the variable's value using $(variable).
-- If a command isn't indented with a tabulation (specifically using tab and not spaces) the command will not work.
-- Targets are file names.
-
+-  If a command isn't indented with a tabulation (specifically using tab and not spaces) the command will not work.
+-  Targets are file names.
+-  Variable calling is done either using `${}` or `$()`.
+-  Make has a huge list of implicit rules that will run by default unless you override them.
+-  

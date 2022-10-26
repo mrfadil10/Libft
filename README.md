@@ -19,4 +19,13 @@ Virtual memory is a memory management technique where secondary memory can be us
    ###### SEGMENTATION FAULT 
    Segmentation fault occurs when the program tries to access an area of memory that is not allowed to access.
    ###### BUS ERROR
-   Bus Error occurs when the program gives a prossesssor instruction with an address does not satisfy its
+   Bus Error occurs when the program gives a prossesssor instruction with an address does not satisfy its ***Alignment Requirements***.
+   
+   ###### ERRNO ?
+   ERRNO is an integer variable that is set by system calls an some library fonctions to indicates the specifics of an error in the event that one occurs.
+   
+## Dealing with files 
+
+   - The 'f' that prefixes the file handling fonction usually refers to the fonction being a high level routine as opposed to a low level routine fontion.
+   - Low level routine do not using buffering but can take to one minute before data is physically written to the disc (we can use **fsync** to unsure that all data is written to file).
+   - EOF is a flag that holds a negative integer value (thogth one should assume the value, it is usually -1) that indicates that a file position has reached the end of file.
